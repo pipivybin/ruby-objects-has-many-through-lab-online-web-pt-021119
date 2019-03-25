@@ -20,7 +20,7 @@ def patient(name)
 end
 
 def doctor(name)
-
+  Appointment.all.select {|x| x.doctor.name == name}
 end
 
 end
