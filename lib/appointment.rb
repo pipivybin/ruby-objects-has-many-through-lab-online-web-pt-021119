@@ -19,7 +19,7 @@ def patient
   Appointment.all.collect {|x| x.patient}
 end
 
-def doctor(name)
+def doctor
   Appointment.all.collect {|x| x.doctor}
 end
 
