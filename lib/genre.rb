@@ -14,7 +14,7 @@ def self.all
 end
 
 def songs
-  Song.all.collect {|x| x.genre == self}
+  Song.all.select {|x| x.genre == self}
 end
 
 
