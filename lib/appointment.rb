@@ -15,12 +15,5 @@ def initialize(date, patient, doctor)
   @@all << self
 end
 
-def patient
-  Appointment.all.collect {|x| x.patient}
-end
-
-def doctor
-  Appointment.all.collect {|x| x.doctor}
-end
 
 end
