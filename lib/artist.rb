@@ -18,8 +18,7 @@ def save
 end
 
 def new_song(songname, genre)
-  song = Song.new(songname, self, genre)
-  song
+  Song.new(songname, self, genre)
 end
 
 def songs
