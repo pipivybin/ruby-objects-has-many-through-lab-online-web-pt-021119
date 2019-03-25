@@ -20,3 +20,5 @@ end
 def patients
   appointments.collect {|x| x.patient }
 end
+
+end
