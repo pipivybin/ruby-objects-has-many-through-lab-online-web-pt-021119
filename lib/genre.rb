@@ -1,6 +1,6 @@
 class Genre
 
-attr_accessor :name, 
+attr_accessor :name,
 
 @@all
 
@@ -13,7 +13,7 @@ def self.all
 end
 
 def songs
-  
+
 end
 
 end
