@@ -24,7 +24,7 @@ def new_song(songname, genre)
 end
 
 def songs
-
+  Song.all.collect {|x| x.artist == self}
 end
 
 end
