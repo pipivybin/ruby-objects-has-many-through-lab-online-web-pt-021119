@@ -16,7 +16,7 @@ def initialize(date, patient, doctor)
 end
 
 def patient(name)
-  Appointment.all.select {|x| x.patient == }
+  Appointment.all.select {|x| x.patient == name}
 end
 
 
