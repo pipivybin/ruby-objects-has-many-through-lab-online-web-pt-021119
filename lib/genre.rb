@@ -19,7 +19,7 @@ end
 
 
 def artists
-  songs.artist
+  songs.collect {|x| x.genre}
 end
 
 end
