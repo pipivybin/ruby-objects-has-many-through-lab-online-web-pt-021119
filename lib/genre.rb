@@ -17,4 +17,9 @@ def songs
   Song.all.collect {|x| x.genre == self}
 end
 
+
+def artists
+  songs.artist
+end
+
 end
