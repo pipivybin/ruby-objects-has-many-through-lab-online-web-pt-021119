@@ -21,7 +21,7 @@ def appointments
 end
 
 def doctors
-
+  appointments.collect {|x| x.doctor}
 end
 
 
