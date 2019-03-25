@@ -1,6 +1,6 @@
 class Artist
 
-attr_reader :namde
+attr_reader :name
 
 
 def initialize(name)
