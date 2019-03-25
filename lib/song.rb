@@ -12,8 +12,9 @@ def initialize(name, artist, genre)
 end
 
 def self.all
-
+  @@all
 end
 
-
+def save
+  Song.all << self
 end
