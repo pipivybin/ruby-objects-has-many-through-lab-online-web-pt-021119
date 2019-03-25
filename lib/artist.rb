@@ -1,6 +1,6 @@
 class Artist
 
-attr_reader :name
+attr_reader :name, :genre
 
 attr_accessor :songs
 
@@ -25,6 +25,10 @@ end
 
 def songs
   Song.all.collect {|x| x.artist == self}
+end
+
+def genres
+  songs.genre
 end
 
 end
