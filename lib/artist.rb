@@ -26,7 +26,7 @@ def songs
 end
 
 def genres
-  songs.genre
+  songs.collect {|x| x.genre}
 end
 
 end
