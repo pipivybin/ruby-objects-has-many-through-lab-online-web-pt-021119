@@ -26,7 +26,7 @@ end
 
 def patients
   appointments.collect {|x| x.patient }
-  binding.pry
+
 end
 
 end
