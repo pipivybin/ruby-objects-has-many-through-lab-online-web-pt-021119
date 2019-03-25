@@ -19,5 +19,8 @@ def patient(name)
   Appointment.all.select {|x| x.patient.name == name}
 end
 
+def doctor(name)
+
+end
 
 end
