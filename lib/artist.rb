@@ -17,4 +17,8 @@ def save
   Artist.all << self
 end
 
+def new_song(songname, genre)
+  song = Song.new(songname)
+end
+
 end
