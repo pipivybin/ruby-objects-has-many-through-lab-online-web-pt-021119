@@ -18,5 +18,5 @@ def appointments
 end
 
 def patients
-  appointments.collect {|x| x.patient}
+  appointments.collect {|x| x.patient }
 end
